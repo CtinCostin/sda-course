@@ -1,0 +1,35 @@
+
+b
+java:S1854"ERemove this useless assignment to local variable "commandLineRunner".(ëÜ•”8³ªÓ¦½/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¤›‰óüÿÿÿÿ8¶ªÓ¦½/
+S
+java:S1481"6Remove this unused "commandLineRunner" local variable.(ëÜ•”8·ªÓ¦½/
+d
+java:S1854&"BRemove this useless assignment to local variable "simplestLambda".(ë­Äúÿÿÿÿ8·ªÓ¦½/
+]
+java:S1854#"@Remove this useless assignment to local variable "simpleLambda".(÷ˆô8·ªÓ¦½/
+\
+java:S1854":Remove this useless assignment to local variable "lambda".(ĞîŠäúÿÿÿÿ8·ªÓ¦½/
+W	java:S125"<This block of commented-out lines of code should be removed.(­ÆT8·ªÓ¦½/
+X	java:S125"<This block of commented-out lines of code should be removed.(±ò¿Ë8¸ªÓ¦½/
+W
+java:S1611"5Remove the parentheses around the "strings" parameter(ĞîŠäúÿÿÿÿ8¸ªÓ¦½/
+N
+java:S1602",Remove useless curly braces around statement(ĞîŠäúÿÿÿÿ8¸ªÓ¦½/
+Z	java:S106 "9Replace this use of System.out or System.err by a logger.(¤›‰óüÿÿÿÿ8¹ªÓ¦½/
+M
+java:S1481"+Remove this unused "lambda" local variable.(ĞîŠäúÿÿÿÿ8¹ªÓ¦½/
+W
+java:S1611$"5Remove the parentheses around the "strings" parameter(¶¨†áúÿÿÿÿ8¹ªÓ¦½/
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(¶¨†áúÿÿÿÿ8ºªÓ¦½/
+N
+java:S1481#"1Remove this unused "simpleLambda" local variable.(÷ˆô8ºªÓ¦½/
+Z	java:S106'"9Replace this use of System.out or System.err by a logger.(ÊÄ•§şÿÿÿÿ8ºªÓ¦½/
+U
+java:S1481&"3Remove this unused "simplestLambda" local variable.(ë­Äúÿÿÿÿ8»ªÓ¦½/
+Y
+java:S1144"<Remove this unused private "anonymousImplementation" method.(üêÌ÷8»ªÓ¦½/
+H
+java:S1144"+Remove this unused private "lambda" method.(ı¸½£8»ªÓ¦½/
+i
+java:S1192"GDefine a constant instead of duplicating this literal "pay me" 4 times.(¤›‰óüÿÿÿÿ8»ªÓ¦½/

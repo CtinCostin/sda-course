@@ -1,0 +1,4 @@
+# Project exclude paths
+/spring-boot-1/target/
+/spring-core/target/
+/spring-data-jpa/target/
