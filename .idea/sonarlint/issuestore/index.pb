@@ -1,8 +1,6 @@
 
 D
 diagrams/test.drawio,3\c\3ce9cb11a76c128621bae30f3748a0503e6f59d3
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 E
 spring-boot-1/pom.xml,1\7\1728a5e21f531f72bee4262d6ad6dd6b76e25735
 E
@@ -71,7 +69,5 @@ z
 Jspring-core/src/main/java/com/sda/spring/core/qualifier/DemoQualifier.java,4\5\45eaf85fbdbf299ee05b3d0ddd7cee3c3c7b1c1d
 }
 Mspring-core/src/main/java/com/sda/spring/core/qualifier/FormatterService.java,3\f\3f618453752d4f86ba22af54cd57d5e90a03bb35
-‘
-aspring-data-jpa/src/main/java/com/sda/spring/data/jpa/repositories/crud/PersonCrudRepository.java,6\7\67df75a577eaf9924ddf97b0828291ae42f4a190
 q
 Aspring-data-jpa/src/main/java/com/sda/spring/data/jpa/Lambda.java,a\9\a9e8dea6a04d493464450eaf893cd4d8e8b42482

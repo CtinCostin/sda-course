@@ -13,8 +13,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 
-import java.util.List;
-import java.util.function.Consumer;
 
 @Configuration
 public class PagingAndSortingRepositoryConfig {
@@ -30,40 +28,32 @@ public class PagingAndSortingRepositoryConfig {
 
         return args -> {
             loadData();
-            paginate();
-            sort();
+            //       paginate();
+            //       sort();
             paginateAndSort();
         };
 
     }
 
-
-    //load data
-    public void loadData() {
-        repository.save(new Person("Paul", 33));
-        repository.save(new Person("alina", 28));
-        repository.save(new Person("kazimir", 34));
-        repository.save(new Person("lidia", 32));
-        repository.save(new Person("violeta", 32));
-    }
-
-    //paginate
-    //pageable - pagination info
-    //PageRequest - implementation of AbstractPageRequest
     private void paginate() {
+        // interface pageable - pagination info
+        // abstract page request - abstract class
+        // page request - implementation class
         Pageable firstPageWithTwoElements = PageRequest.of(2, 2);
+        Pageable secondPageWithOneElement = PageRequest.of(1, 1);
+
         Page<Person> page = repository.findAll(firstPageWithTwoElements);
-        // Consumer<Person> consumer = person -> log.info("Person: {}", person);
         printPageContent(page);
-        Page<Person> peopleAge32Page = repository.findAllByAge(33, firstPageWithTwoElements);
-        peopleAge32Page.getContent().forEach(person -> log.info("Person: {}", person));
+
+        Page<Person> peopleAge32Page = repository.findAllByAge(32, firstPageWithTwoElements);
+        printPageContent(peopleAge32Page);
 
     }
 
     private void sort() {
         Sort sortByName = Sort.by("name");
         Iterable<Person> sortedPeople = repository.findAll(sortByName);
-        printPageContent(sortedPeople);
+        sortedPeople.forEach(person -> log.info("person: {}", person));
 
     }
 
@@ -76,6 +66,13 @@ public class PagingAndSortingRepositoryConfig {
         Page<Person> peopleSortedByAgeDescending = repository.findAll(sortedByAgeDescending);
         printPageContent(peopleSortedByAgeDescending);
 
+        Pageable sortedByAgeDescendingAndNameAscending = PageRequest.of(0, 5,
+                Sort.by("age").descending()
+                        .and(Sort.by("name").ascending())
+        );
+        Page<Person> peopleSortedByAgeDescendingAndNameAscending = repository.findAll(sortedByAgeDescendingAndNameAscending);
+        printPageContent(peopleSortedByAgeDescendingAndNameAscending);
+
 
     }
 
@@ -87,6 +84,15 @@ public class PagingAndSortingRepositoryConfig {
     private void printPageContent(Page<Person> page) {
         page.getContent().forEach(person -> log.info("Person: {}", person));
 
+    }
+
+    //load data
+    public void loadData() {
+        repository.save(new Person("Paul", 33));
+        repository.save(new Person("alina", 28));
+        repository.save(new Person("kazimir", 34));
+        repository.save(new Person("lidia", 32));
+        repository.save(new Person("violeta", 32));
     }
 
 }
