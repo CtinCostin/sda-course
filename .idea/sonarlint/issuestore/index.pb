@@ -2,8 +2,6 @@
 D
 diagrams/test.drawio,3\c\3ce9cb11a76c128621bae30f3748a0503e6f59d3
 E
-spring-boot-1/pom.xml,1\7\1728a5e21f531f72bee4262d6ad6dd6b76e25735
-E
 parent-boot-2/pom.xml,c\b\cbe7dd5f70a5925c471bca087edbe5f9a424d4d4
 C
 spring-core/pom.xml,8\1\8169f9409f19a2ac9e2219256838af40c59a5432
@@ -109,8 +107,6 @@ Mspring-data-jpa/src/main/java/com/sda/spring/data/jpa/customquery/Player.java,
 Wspring-data-jpa/src/main/java/com/sda/spring/data/jpa/customquery/PlayerRepository.java,8\6\869c628264a7c437e2629b73e1fff1251cdbf18a
 ‹
 [spring-data-jpa/src/test/java/com/sda/spring/data/jpa/customquery/PlayerRepositoryTest.java,2\4\243e0dfc762e9836412c9dfbb8eeae23ceb2dfbb
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 
 Ospring-data-jpa/src/main/java/com/sda/spring/data/jpa/derivedquery/Profile.java,b\c\bc01dc88b1bb4596844836ae7e6cf4d7069050b9
 ‰

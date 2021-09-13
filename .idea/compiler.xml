@@ -7,9 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-data-jpa" />
-        <module name="spring-boot" />
+        <module name="spring-boot-1" />
         <module name="spring-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,15 @@
+
+W
+java:S1611"5Remove the parentheses around the "strings" parameter(ÊáÏ²øÿÿÿÿ8²Éí¦½/
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(°‚ƒØ8´Éí¦½/
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(§¾·ë8¶Éí¦½/
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(—»÷øıÿÿÿÿ8·Éí¦½/
+`
+java:S1854S">Remove this useless assignment to local variable "easyPerson".(¹Öë°ûÿÿÿÿ8·Éí¦½/
+Q
+java:S1481S"/Remove this unused "easyPerson" local variable.(¹Öë°ûÿÿÿÿ8¸Éí¦½/
+Z	java:S106\"9Replace this use of System.out or System.err by a logger.(ñÃÙÍøÿÿÿÿ8¹Éí¦½/
+T
+java:S1144Q"2Remove this unused private "rightOptional" method.(ÒŠøÿÿÿÿ8ºÉí¦½/
+O
+java:S1144W"2Remove this unused private "wrongOptional" method.(Æ½ëü8ºÉí¦½/

@@ -1,0 +1,12 @@
+
+Q	java:S125"<This block of commented-out lines of code should be removed.(êÔ–
+b
+java:S1854+"LRemove this useless assignment to local variable "secondPageWithOneElement".(®Ô¸´
+S
+java:S1481+"=Remove this unused "secondPageWithOneElement" local variable.(®Ô¸´
+C
+java:S1144&"-Remove this unused private "paginate" method.(•’¤
+?
+java:S11445")Remove this unused private "sort" method.(µÂñ
+R
+java:S1144O"5Remove this unused private "printPageContent" method.(™‚²±8ãõÉÑ½/
