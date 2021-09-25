@@ -1,0 +1,8 @@
+2021-09-25 09:47:05.336  INFO 20728 --- [main] c.s.spring.boot.SpringBoot2Application   : Starting SpringBoot2Application on DESKTOP-0LJP6OG with PID 20728 (C:\dev\sda-course\spring-boot-1\target\classes started by -pc in C:\dev\sda-course)
+2021-09-25 09:47:05.338  INFO 20728 --- [main] c.s.spring.boot.SpringBoot2Application   : No active profile set, falling back to default profiles: default
+2021-09-25 09:51:59.845  INFO 20728 --- [main] c.s.spring.boot.SpringBoot2Application   : Started SpringBoot2Application in 294.985 seconds (JVM running for 296.076)
+2021-09-25 09:51:59.846  INFO 20728 --- [main] c.s.s.b.p.PropertyCommandLineRunner      : custom properties (spring boot): CustomProperties{appOwner='1.0', releaseVersion='null'}
+2021-09-25 09:52:01.858  INFO 21540 --- [main] c.s.spring.boot.SpringBoot2Application   : Starting SpringBoot2Application on DESKTOP-0LJP6OG with PID 21540 (C:\dev\sda-course\spring-boot-1\target\classes started by -pc in C:\dev\sda-course)
+2021-09-25 09:52:01.860  INFO 21540 --- [main] c.s.spring.boot.SpringBoot2Application   : No active profile set, falling back to default profiles: default
+2021-09-25 09:52:02.357  INFO 21540 --- [main] c.s.spring.boot.SpringBoot2Application   : Started SpringBoot2Application in 0.943 seconds (JVM running for 1.37)
+2021-09-25 09:52:02.358  INFO 21540 --- [main] c.s.s.b.p.PropertyCommandLineRunner      : custom properties (spring boot): CustomProperties{appOwner='1.0', releaseVersion='null'}

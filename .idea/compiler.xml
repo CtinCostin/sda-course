@@ -15,4 +15,10 @@
       <module name="spring-boot" target="11" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-1" options="" />
+      <module name="spring-data-jpa" options="" />
+    </option>
+  </component>
 </project>
