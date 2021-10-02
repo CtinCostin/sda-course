@@ -10,6 +10,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Optional;
 import java.util.function.Consumer;
 
+// spring knows CrudRepositoryConfig
 @Configuration
 public class CrudRepositoryConfig {
 
@@ -92,4 +93,5 @@ public class CrudRepositoryConfig {
             System.out.println("real alex " + realAlex.getName());
         }
     }
+
 }

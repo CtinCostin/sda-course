@@ -3,8 +3,8 @@ package com.sda.spring.data.jpa.customquery;
 import javax.persistence.*;
 import java.time.ZonedDateTime;
 
-@Entity
 @Table(name = "player")
+@Entity
 public class Player {
 
     @Id
@@ -65,6 +65,3 @@ public class Player {
         this.active = active;
     }
 }
-
-
-

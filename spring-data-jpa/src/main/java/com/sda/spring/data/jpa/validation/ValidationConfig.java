@@ -18,7 +18,7 @@ import java.util.Set;
 @Configuration
 public class ValidationConfig {
 
-    public static final Logger log = LoggerFactory.getLogger(ValidationConfig.class);
+    private static final Logger log = LoggerFactory.getLogger(ValidationConfig.class);
 
     @Autowired
     private UserService userService;
@@ -35,13 +35,13 @@ public class ValidationConfig {
         UserWriteDto validDto = createValidUser();
         isValid(validDto);
 
-        UserWriteDto invalidDto = createInvalidUser();
+        UserWriteDto invalidDto = createInValidUser();
         isValid(invalidDto);
     }
 
     private UserWriteDto createValidUser() {
         UserWriteDto dto = new UserWriteDto();
-        dto.setName("Jon Snow");
+        dto.setName("jon snow");
         dto.setEmail("jonsnow@gmail.com");
         dto.setAge(30);
         dto.setConsented(true);
@@ -49,37 +49,37 @@ public class ValidationConfig {
         return dto;
     }
 
-    private UserWriteDto createInvalidUser() {
+    private UserWriteDto createInValidUser() {
         UserWriteDto dto = new UserWriteDto();
-        dto.setName("Ana Smith");
+        dto.setName("ana");
         dto.setEmail("jonsnowgmail.com");
-        dto.setAge(15);
+        dto.setAge(10);
         dto.setConsented(false);
         dto.setAboutMe(":X");
         return dto;
-
     }
 
-    //programmatic validation
+    // programmatic validation
     private boolean isValid(UserWriteDto dto) {
-        //get validation violations programmatically
+        // get validation violations programmatically
         Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
         Set<ConstraintViolation<UserWriteDto>> constraintViolations = validator.validate(dto);
 
         if (!constraintViolations.isEmpty()) {
             log.error("validating user: {}", dto);
 
-            constraintViolations.forEach(violation -> log.error("violation: {}", violation.getMessage()));
+            constraintViolations
+                    .forEach(violation -> log.error("violation: {}", violation.getMessage()));
             return false;
         }
         return true;
     }
 
     private void testService() {
-        //create user
+        // create user
         UserWriteDto dto = createValidUser();
 
-        //crud
+        // crud
         UserReadDto savedUserDto = userService.save(dto);
 
         List<UserReadDto> userDtos = userService.findAll();
@@ -87,7 +87,7 @@ public class ValidationConfig {
         UserReadDto userDto = userService.findById(savedUserDto.getId());
 
         UserWriteDto updateData = new UserWriteDto();
-        updateData.setName("John Snow");
+        updateData.setName("john snow");
         updateData.setEmail("johnsnow@gmail.com");
         updateData.setAge(35);
         updateData.setConsented(true);

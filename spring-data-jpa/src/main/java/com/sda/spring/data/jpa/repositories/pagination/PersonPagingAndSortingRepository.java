@@ -5,10 +5,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.repository.PagingAndSortingRepository;
 
-public interface PersonPagingAndSortingRepository extends PagingAndSortingRepository<Person, Long> {
+public interface PersonPagingAndSortingRepository extends
+        PagingAndSortingRepository<Person, Long> {
 
-    Page<Person> findAllByAge(int age, Pageable page);
-
-
-
+    Page<Person> findAllByAge(int age, Pageable pageable);
 }

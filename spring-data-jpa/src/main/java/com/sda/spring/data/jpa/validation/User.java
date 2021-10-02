@@ -12,11 +12,10 @@ public class User {
     private String name;
     private String email;
     private Boolean consented;
-    private  String aboutMe;
+    private String aboutMe;
     private int age;
 
-    public User(){
-
+    public User() {
     }
 
     public Long getId() {

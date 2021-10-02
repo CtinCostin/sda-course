@@ -38,5 +38,4 @@ public class Lambda {
         CommandLineRunner simplestLambda =
                 strings -> System.out.println("pay me");
     }
-
 }

@@ -1,5 +1,8 @@
 package com.sda.spring.data.jpa.derivedquery;
 
+import com.sda.spring.data.jpa.derivedquerry.DerivedQueryApplication;
+import com.sda.spring.data.jpa.derivedquerry.Profile;
+import com.sda.spring.data.jpa.derivedquerry.ProfileRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

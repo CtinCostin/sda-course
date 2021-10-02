@@ -18,6 +18,9 @@
         <module>parent-boot-2</module>
         <module>spring-data-jpa</module>
         <module>spring-boot-1</module>
+        <module>spring-thymeleaf</module>
+        <module>spring-security-memory</module>
+        <module>spring-security-jpa-mysql</module>
     </modules>
 
     <properties>

@@ -18,8 +18,7 @@ public class Person {
     private Integer age;    // defaults to null
 
     // empty constructor - required by hibernate
-    public Person() {
-    }
+    public Person() {}
 
     // optional constructor
     public Person(String name, Integer age) {

@@ -8,7 +8,5 @@ public class ValidationApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(ValidationApplication.class);
-
-
     }
 }

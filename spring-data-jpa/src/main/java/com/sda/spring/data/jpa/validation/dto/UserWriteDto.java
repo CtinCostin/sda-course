@@ -4,20 +4,20 @@ import javax.validation.constraints.*;
 
 public class UserWriteDto {
 
-    @NotEmpty(message = "name cannot be empty!")
+    @NotEmpty(message = "name cannot be empty")
     private String name;
 
-    @Email(message = "invalid email format!")
+    @Email(message = "invalid email format")
     private String email;
 
-    @AssertTrue(message = "consent must be accepted!")
+    @AssertTrue(message = "consent must be accepted")
     private Boolean consented;
 
-    @Size(min = 10, max = 100, message = "description should be between 10 and 100 characters!")
+    @Size(min = 10, max = 100, message = "description should be between 10 - 100 characters")
     private String aboutMe;
 
-    @Min(value = 18, message = "age should be at least 18!")
-    @Max(value = 80, message = "age should be at maximum 80!")
+    @Min(value = 18, message = "age should be at least 18")
+    @Max(value = 80, message = "age should be at maximum 80")
     private int age;
 
     public String getName() {
@@ -62,8 +62,8 @@ public class UserWriteDto {
 
     @Override
     public String toString() {
-        return "UserWriteDto{" +
-                "name='" + name + '\'' +
+        return "User{" +
+                ", name='" + name + '\'' +
                 ", email='" + email + '\'' +
                 ", consented=" + consented +
                 ", aboutMe='" + aboutMe + '\'' +

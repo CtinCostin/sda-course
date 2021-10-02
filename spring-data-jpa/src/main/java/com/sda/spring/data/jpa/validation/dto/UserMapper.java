@@ -10,12 +10,12 @@ import java.util.stream.Collectors;
 @Component
 public class UserMapper {
 
-    //convert entities to dtos
+    // convert entities to dtos
     public List<UserReadDto> toDto(List<User> entities) {
         List<UserReadDto> resultList = new ArrayList<>();
-        //iterate list of entities
+        // iterate list of entities
         for (User entity : entities) {
-            //convert entity to dto
+            // convert entity to dto
             UserReadDto dto = new UserReadDto();
             dto.setId(entity.getId());
             dto.setName(entity.getName());
@@ -27,9 +27,9 @@ public class UserMapper {
     }
 
     public List<UserReadDto> toDtoEasy(List<User> entities) {
-        return entities.stream()                              //Stream<User>
-                //get user and transform in anything else
-                .map((entity) -> toDto(entity))               //List<UserReadDto>
+        return entities.stream()                                // Stream<User>
+                // get user and transform in anything else
+                .map((entity) -> toDto(entity))                 // List<UserReadDto>
                 .collect(Collectors.toList());
     }
 
@@ -65,6 +65,4 @@ public class UserMapper {
         userToUpdate.setAboutMe(updateData.getAboutMe());
         return userToUpdate;
     }
-
-
 }
