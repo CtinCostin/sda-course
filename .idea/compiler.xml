@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-data-jpa" />
-        <module name="spring-boot-1" />
         <module name="spring-security-jpa-mysql" />
         <module name="spring-thymeleaf" />
         <module name="spring-core" />
         <module name="spring-security-memory" />
+        <module name="spring-security-thymeleaf" />
+        <module name="spring-boot-1" />
+        <module name="spring-boot-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

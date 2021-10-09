@@ -5,6 +5,8 @@
     <file url="file://$PROJECT_DIR$/parent-boot-2/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-1/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-boot-1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-rest/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-core/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-data-jpa/src/main/java" charset="UTF-8" />
@@ -13,6 +15,8 @@
     <file url="file://$PROJECT_DIR$/spring-security-jpa-mysql/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-memory/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-security-memory/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-thymeleaf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-security-thymeleaf/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-thymeleaf/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-thymeleaf/src/main/resources" charset="UTF-8" />
   </component>
